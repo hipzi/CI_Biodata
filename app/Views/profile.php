@@ -56,3 +56,7 @@
         </div>
     </section>
 <?= $this->endSection() ?>
+
+<?= $this->section('script') ?>
+$(".main-menu li:first").addClass("active");
+<?= $this->endSection() ?>

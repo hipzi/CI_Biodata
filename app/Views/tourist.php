@@ -56,10 +56,10 @@
                     <a
                         href="assets/images/3-color-beach.jpg"
                         data-lightbox="image-1"
-                        data-title="Caption"
+                        data-title="Three Colored Beach"
                         ><i class="fa fa-search"></i
                     ></a>
-                    <h4>First Title</h4>
+                    <h4>Three Colored Beach</h4>
                     </figcaption>
                 </figure>
                 </div>
@@ -75,10 +75,10 @@
                     <a
                         href="assets/images/asmara-bay-beach.jpg"
                         data-lightbox="image-1"
-                        data-title="Caption"
+                        data-title="Asmara Bay Beach"
                         ><i class="fa fa-search"></i
                     ></a>
-                    <h4>First Title</h4>
+                    <h4>Asmara Bay Beach</h4>
                     </figcaption>
                 </figure>
                 </div>
@@ -94,10 +94,10 @@
                     <a
                         href="assets/images/goa-china.jpg"
                         data-lightbox="image-1"
-                        data-title="Caption"
+                        data-title="China Goa Beach"
                         ><i class="fa fa-search"></i
                     ></a>
-                    <h4>First Title</h4>
+                    <h4>China Goa Beach</h4>
                     </figcaption>
                 </figure>
                 </div>
@@ -113,10 +113,10 @@
                     <a
                         href="assets/images/Jodipan-Village.jpg"
                         data-lightbox="image-1"
-                        data-title="Caption"
+                        data-title="Jodipan Village"
                         ><i class="fa fa-search"></i
                     ></a>
-                    <h4>Second Title</h4>
+                    <h4>Jodipan Village</h4>
                     </figcaption>
                 </figure>
                 </div>
@@ -132,10 +132,10 @@
                     <a
                         href="assets/images/singosari-temple.jpg"
                         data-lightbox="image-1"
-                        data-title="Caption"
+                        data-title="Singosari Temple"
                         ><i class="fa fa-search"></i
                     ></a>
-                    <h4>Second Title</h4>
+                    <h4>Singosari Temple</h4>
                     </figcaption>
                 </figure>
                 </div>
@@ -151,10 +151,10 @@
                     <a
                         href="assets/images/andeman.JPG"
                         data-lightbox="image-1"
-                        data-title="Caption"
+                        data-title="Boon Pring Andeman"
                         ><i class="fa fa-search"></i
                     ></a>
-                    <h4>Item Third</h4>
+                    <h4>Boon Pring Andeman</h4>
                     </figcaption>
                 </figure>
                 </div>
@@ -170,10 +170,10 @@
                     <a
                         href="assets/images/malang-night-paradise.jpg"
                         data-lightbox="image-1"
-                        data-title="Caption"
+                        data-title="Malang Night Paradise"
                         ><i class="fa fa-search"></i
                     ></a>
-                    <h4>Item Third</h4>
+                    <h4>Malang Night Paradise</h4>
                     </figcaption>
                 </figure>
                 </div>
@@ -189,10 +189,10 @@
                     <a
                         href="assets/images/Coban-Rondo.jpg"
                         data-lightbox="image-1"
-                        data-title="Caption"
+                        data-title="Coban Rondo"
                         ><i class="fa fa-search"></i
                     ></a>
-                    <h4>Item Fourth</h4>
+                    <h4>Coban Rondo</h4>
                     </figcaption>
                 </figure>
                 </div>
@@ -208,10 +208,10 @@
                     <a
                         href="assets/images/wonosari-tea.png"
                         data-lightbox="image-1"
-                        data-title="Caption"
+                        data-title="Wonosari Tea Plantation"
                         ><i class="fa fa-search"></i
                     ></a>
-                    <h4>Fifth Awesome</h4>
+                    <h4>Wonosari Tea Plantation</h4>
                     </figcaption>
                 </figure>
                 </div>
@@ -220,4 +220,8 @@
         </div>
         </div>
     </section>
+<?= $this->endSection() ?>
+
+<?= $this->section('script') ?>
+$(".main-menu li:eq(2)").addClass("active");
 <?= $this->endSection() ?>

@@ -48,3 +48,7 @@
         </div>
     </section>
 <?= $this->endSection() ?>
+
+<?= $this->section('script') ?>
+$(".main-menu li:eq(1)").addClass("active");
+<?= $this->endSection() ?>
