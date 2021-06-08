@@ -35,8 +35,6 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::profile');
 $routes->get('/education', 'Home::education');
 $routes->get('/tourist', 'Home::tourist');
-// $routes->get('{locale}/education', 'Home::education', ['as' => 'education']);
-// $routes->add('{locale}/education', 'Home::education');
 
 /*
  * --------------------------------------------------------------------
