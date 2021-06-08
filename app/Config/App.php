@@ -23,8 +23,8 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/biodata-ci/public/';
-	// public $baseURL = 'http://localhost:3000/public/';
+	// public $baseURL = 'http://localhost/biodata-ci/public/';
+	public $baseURL = 'https://hipzi-portofolio.herokuapp.com/';
 
 	/**
 	 * --------------------------------------------------------------------------
