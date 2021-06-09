@@ -1,4 +1,4 @@
-<?= $this->extend('layout') ?>
+<?= $this->extend('layout/layout'); ?>
 
 <?= $this->section('profile') ?>
     <section class="section about-me" data-section="section1">
@@ -44,7 +44,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <a href = "mailto: zahramillah582@gmail.com">
-                                <button id="contact" type="button" class="btn btn-block" style="background-color:#d67f7d">
+                                <button id="contact" type="button" class="btn btn-block" style="color:white; background-color:#d67f7d">
                                     <i class="fa fa-envelope" style="margin-right: 3px;"></i>
                                     Contact
                                 </button>

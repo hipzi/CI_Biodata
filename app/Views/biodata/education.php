@@ -1,4 +1,4 @@
-<?= $this->extend('layout') ?>
+<?= $this->extend('layout/layout'); ?>
 
 <?= $this->section('education') ?>
     <section class="section education" data-section="section2">

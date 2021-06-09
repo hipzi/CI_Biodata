@@ -10,13 +10,13 @@
         <title>Portofolio</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="folder/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="<?php echo base_url('folder/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet" />
 
         <!-- Additional CSS Files -->
-        <link rel="stylesheet" href="assets/css/fontawesome.css" />
-        <link rel="stylesheet" href="assets/css/templatemo-style.css" />
-        <link rel="stylesheet" href="assets/css/owl.css" />
-        <link rel="stylesheet" href="assets/css/lightbox.css" />
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/fontawesome.css'); ?>" />
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/templatemo-style.css'); ?>" />
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/owl.css'); ?>" />
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/lightbox.css'); ?>" />
     </head>
 
     <body>
@@ -28,7 +28,7 @@
             <i class="fa fa-times" id="menu-close"></i>
             <div class="container">
                 <div class="image">
-                    <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a>
+                    <a href="#"><img src="<?php echo base_url('assets/images/author-image.jpg'); ?>" alt="" /></a>
                 </div>
                 <div class="author-content">
                 <h4>Zahratul Millah</h4>
@@ -39,6 +39,7 @@
                     <li><a href="<?php echo base_url('/');?>">About Me</a></li>
                     <li><a href="<?php echo base_url('/education');?>">Education</a></li>
                     <li><a href="<?php echo base_url('/tourist');?>">Tourist</a></li>
+                    <li><a href="<?php echo base_url('/mahasiswa');?>">Data Mahasiswa</a></li>
                 </ul>
                 </nav>
                 <div class="social-network">
@@ -70,17 +71,21 @@
         <?= $this->renderSection('tourist') ?>
         <!-- End Tourist -->
 
+        <!-- Start Data Mahasiswa -->
+        <?= $this->renderSection('data') ?>
+        <!-- End Data Mahasiswa -->
+
         </div>
 
         <!-- Scripts -->
         <!-- Bootstrap core JavaScript -->
-        <script src="folder/jquery/jquery.min.js"></script>
-        <script src="folder/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php echo base_url('folder/jquery/jquery.min.js'); ?>"></script>
+        <script src="<?php echo base_url('folder/bootstrap/js/bootstrap.bundle.min.js'); ?>"></script>
 
-        <script src="assets/js/isotope.min.js"></script>
-        <script src="assets/js/owl-carousel.js"></script>
-        <script src="assets/js/lightbox.js"></script>
-        <script src="assets/js/custom.js"></script>
+        <script src="<?php echo base_url('assets/js/isotope.min.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/js/owl-carousel.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/js/lightbox.js'); ?>"></script>
+        <script src="<?php echo base_url('assets/js/custom.js'); ?>"></script>
         <script>
 
         <?= $this->renderSection('script') ?>

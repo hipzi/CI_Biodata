@@ -6,17 +6,16 @@ class Home extends BaseController
 {
 	public function profile()
 	{
-		return view('profile');
+		return view('biodata/profile');
 	}
 
 	public function education()
 	{
-		return view('education');
+		return view('biodata/education');
 	}
 
 	public function tourist()
 	{
-		return view('tourist');
+		return view('biodata/tourist');
 	}
-
 }
