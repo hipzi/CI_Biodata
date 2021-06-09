@@ -17,7 +17,7 @@
                             </button>
                         </div>
                     <?php endif; ?>
-                    <a href="<?= base_url('/create_mahasiswa'); ?>" class="btn" style="color:white;background-color:#d67f7d;float:right;margin-bottom:10px;">Tambah</a>
+                    <a href="<?= base_url('/mahasiswa/create'); ?>" class="btn" style="color:white;background-color:#d67f7d;float:right;margin-bottom:10px;">Tambah</a>
                     <!-- <hr /> -->
                     <table class="table table-bordered">
                         <tr>
